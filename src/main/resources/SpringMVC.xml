@@ -19,7 +19,7 @@
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix">
-            <value>WEB-INF/jsp</value>
+            <value>jsp</value>
         </property>
         <property name="suffix">
             <value>.jsp</value>
@@ -27,9 +27,8 @@
     </bean>
 
     <!--静态资源配置,所有的配置文件全部放在resource文件夹下，具体的在其下细分-->
-    <mvc:resources mapping="/resources/**/**"
-                   location="/resource"
+    <mvc:resources mapping="/resources/**"
+                   location="/resource/"
                    cache-period="31556926" />
-
 
 </beans>
