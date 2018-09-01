@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/layui/css/layui.css" type="text/css" />
 <!--js引用一定要如下引用，不能没有</script>，否则可能不能自动关闭，导致浏览器读取失败-->
 <script src="${pageContext.request.contextPath}/resource/layui/layui.js" type="application/javascript"></script>
+<script src="${pageContext.request.contextPath}/js/admin/admin.js" type="application/javascript"></script>
 <body>
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
@@ -83,12 +84,5 @@
         © layui.com - 底部固定区域
     </div>
 </div>
-<script>
-    //JavaScript代码区域
-    layui.use('element', function(){
-        var element = layui.element;
-
-    });
-</script>
 </body>
 </html>
