@@ -1,2 +1,2 @@
 # MallBackend
-分布式研究项目
+dubbo,zookeeper相关的demo项目前台
